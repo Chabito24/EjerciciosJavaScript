@@ -30,3 +30,10 @@ var nombreProducto = 'Monitor HD'; //tambien se puede de esta manera separando e
 var NombreProducto = 'Monitor HD'; //o de esta manera que ambas empiecen con mayusculas, conocido como "PascalCase", se utiliza cuando creas una clase
 
 var nombreproducto = 'Monitor HD'; //o de esta manera conocido como "lowercase" 
+
+//las variables son Case Sensitive, es decir tiene en cuenta si las variables estan escritas en mayusculas o minusculas no es lo mismo PRODUCTO que producto para JS esto son dos variables diferentes.
+
+var // es la manera como se delaraba la variable antiguamente ahora se usa:
+
+let 
+const //las veremos en el archivo 02.js
