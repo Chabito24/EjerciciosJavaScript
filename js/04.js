@@ -19,5 +19,4 @@ console.log(typeof producto3) // muestra en consola que es un objeto
 
 // const producto = "Monitor de 20 pulgadas";
 
-// console.log(producto) lo dejo comentado para qeu no me genere error en la consola del navegador
-
+// console.log(producto) lo dejo comentado para qeu no me genere error en la consola del navegador..
