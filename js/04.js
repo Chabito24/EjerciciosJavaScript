@@ -38,3 +38,5 @@ console.log(tweet.indexOf('JavaScript')) // si la palabra esta escrito de forma 
 
 console.log(tweet.includes ('javascript')) //como si existe me dice true
 console.log(tweet.includes ('JavaScript')) //al contrario como la palabra esta mal escrita o no existe me genera un false
+
+//IMPORTANTE existen bastantes METODOS  pueden ser mas de 30 Metodos, cada uno para validar o retornar ciertos valores dentro de una cadena
