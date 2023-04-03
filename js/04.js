@@ -30,7 +30,7 @@ console.log(tweet. length); // este .length me muestra en la consola la cantidad
 
 //METODO IndexOf (retorna una posicion)
 
-console.log(tweet.indexOf ('javascript')) // el metodo IndexOf, debe ir seguido de parentesis y entre el parentesis la palabra que quiero buscar dentro del string, en este caso javascript, en concola me muestra el numero 12, es decir, que la palabtrra se encuentra escrita despues del caracter numero 12, 
+console.log(tweet.indexOf ('javascript')) // el metodo IndexOf, debe ir seguido de parentesis y entre el parentesis la palabra que quiero buscar dentro del string, en este caso javascript, en consola me muestra el numero 12, es decir, que la palabtrra se encuentra escrita despues del caracter numero 12, 
 
 console.log(tweet.indexOf('JavaScript')) // si la palabra esta escrito de forma diferente en este caso con la J y la S mayusculas o cimplemente no encuentra la palabra me va a generar en consola el numero -1, es decir un numero uno megativo
 
@@ -39,4 +39,4 @@ console.log(tweet.indexOf('JavaScript')) // si la palabra esta escrito de forma 
 console.log(tweet.includes ('javascript')) //como si existe me dice true
 console.log(tweet.includes ('JavaScript')) //al contrario como la palabra esta mal escrita o no existe me genera un false
 
-//IMPORTANTE existen bastantes METODOS  pueden ser mas de 30 Metodos, cada uno para validar o retornar ciertos valores dentro de una cadena
+//IMPORTANTE existen bastantes METODOS  pueden ser mas de 30 Metodos, cada uno para validar o retornar ciertos valores dentro de una cadena "string"

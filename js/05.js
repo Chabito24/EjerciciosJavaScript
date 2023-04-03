@@ -27,7 +27,7 @@ const numero5 = 7;
 const numero6 = 6;
 
 
-console.log(numero3 % numero4); //lo que hace es una division y muestra el residuo de la misma
+console.log(numero5 % numero6); //lo que hace es una division y muestra el residuo de la misma, es decir 1
 
-//SUENA LOGICO PERO NO SE PUEDEN HACER OPERACIONES ENTRE STRING, GENMNERARA UN EROR LLAMADO NoN = NOT A NUMBER
+//SUENA LOGICO PERO NO SE PUEDEN HACER OPERACIONES ENTRE STRING, GENMNERARA UN EROR LLAMADO NoN = Not A Numbre
 
