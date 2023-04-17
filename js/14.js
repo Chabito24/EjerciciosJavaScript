@@ -9,7 +9,9 @@ console.table(numeros);//me meustra la informacion pero en una tabla, ver consol
 
 //Ejemplo 2: tambien se peude crear con el constructor con la siguiente sintaxis de acontinuacion:
 
-const meses = new Array('Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'); //se utiliza mas la anterior que esta
+//const meses = new Array('Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'); se utiliza mas la anterior que esta, es decir sin el constructor de new array
+
+const meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
 
 console.log(meses);
 console.table(meses);
@@ -40,3 +42,68 @@ console.log(meses.length); //vamops a poder ver en cosola que nos va a mostrar l
 numeros.forEach( function(numero) {
     console.log(numero);
 }) //se usa la anterior sintaxis el nombre del arreglo seguido de punto y la palabraforEach entre parentecios la opcion function y dentro de parentesis el nombre por el cual queremos hacer la iteracion.
+
+
+//METODOS PARA LOS ARRAYS - VIDEO119
+
+//agregar nuevos elementos
+
+numeros[5] = 60;//agrega un nuevo indice con un valor en este caso indice numero 5 con el valor 60
+numeros[6] =70; //hace lo mismo que el anterior
+
+console.table(numeros); //veremos en consola que ahora en la tabla me agrego un valor en este caso en el indice numero 5 el valor numero 60 y en el indice 6 el valor de 70 tal cual como se indico en  el codigo anterior ARREGLO DE "numeros"
+
+//agregar un elemento sin indicar el indice push
+
+numeros.push(80); //me agrega el nuevo elemento al final en este caso en el indice 7 ya que teniamos solo del 0 al 6 de indice, siempre lo agrega al final el.push
+
+console.table(numeros);
+
+
+//agregar multiples elementos
+
+numeros.push(90,100,110,120,130); //se agregan en el mismo codigo solo asignandi una coma despues de cada valo, igual los va a colocar en orden cada valor consecuente al final de la lista. NOTA: NO SE RECOMINEDA MODIFICAR LOS DATOS ORIGINALES DE UN ARREGLO.
+
+console.table(numeros);
+
+
+//agregar elementos al inicio de la lista
+
+numeros.unshift(-10,-20,-30,-40); //al ver la consola veremos que nos agrego estos elementos al inicio
+
+console.table(numeros);
+
+//modificar un elemento
+
+numeros[2] = 29; //esto me modifico el valor del elemento al verificar la tabla nuevamente veremos que el valor del indice 2 ya no es 30 como en el arreglo inicial sino que ahora es de 29 ver consola
+
+console.table(numeros);
+
+//Eliminar elementos de un arreglo
+
+meses.pop(); //si lo dejamos asi sin valor me elimina el ultimo elemento, en este caso del arreglo llamado meses, es decir al ver la consola no debe mostrar el mes de Diciembre
+
+console.table(meses);
+
+meses.shift(); //elimimna el primer elemento del arreglo, ya no debe mostrar enero
+
+console.table(meses);
+
+
+//eliminar un elemento intermedio
+meses.splice(2, 1);//el primer valor toma el indica que va a eliminar y el segundo valor cuantos elementos se van a eli¿misr apartir de se indice como solo quiero elimnar el indice 2 dejo el numero 1 despues del indice ya que no quiero eliminar mas elementos, es decir en el indice 2 estaba abrik, al ver la consola con el console.table o console.log no debe aparecer ese mes
+
+console.table(meses);
+
+
+//DESVENTAJAS: las desventajas de todos estos metodos es quemodifican los valores originales del arreglo, es mejor siempre mantener el arregllo con los valores originales y en cambio para hacer alguna modificación crear un nuevo arreglo donde incluya el cambio que necesitamos realizar.
+
+
+//REST OPERATOR O SPREAD OPERATOR
+
+const nuevoArreglo = [...meses, 'Eneriembre'] // crea el nuevo arreglo, usa el rest operator copiando los datos del arreglo mese sy agrega un nuevo mes que me invente llamado eneriembre, vemoslo en la consola -- ES EQUIVALENTE AL PUSH UN POCO MAS DE CODIGO PERO ES LA MANERA MAS ACERTADA DE HACERLO, si queremos que incorpore el cambio al inicio invertirlo de la siguiente manera en el codigo: const nuevoArreglo = ['Eneriembre', ...meses] esto invierte el orden
+
+console.table(nuevoArreglo);
+
+
+
