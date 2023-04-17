@@ -1,14 +1,17 @@
 //tipos de datos: STRINGS O CADENAS DE TEXTO
 
 const producto = 'Monitor de 20 pulgadas';
+const producto1 ='Monitor de 20\"'
 const producto2 = String('Monitor 30 pulgadas');
-const producto3 = new String('Monitor 50 pulgadas');
+const producto3 = new String('Monitor 50 pulgadas'); //object
 
 console.log(producto);
+console.log(producto1);
 console.log(producto2);
 console.log(producto3);
 
 console.log(typeof producto); // muestra en consola que es un string
+console.log(typeof producto1); // string y muestra las comillas esta se separa con una diagonal invertiva Alt+92 para que no genere error con las comillas ya sean dobles o sencillas del string
 console.log(typeof producto2); // muestra en consola que es un string
 console.log(typeof producto3); // muestra en consola que es un object
 

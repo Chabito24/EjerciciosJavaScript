@@ -17,4 +17,6 @@ const medidas = {
 const newProduct = { ...producto, ...medidas}; //se crea una nueva variable con una sintaxis de objeto ene ste caso la nueva variable se va a llamar newProduct segido signo de igual y llaves tres puntos el nombre del primer objeto, despues coma, despues nuevamente tres puntos y elo nombre del segundo objeto
 
 console.log(producto); //muestra las propiedades de solo el producto
+console.log(medidas); //nuestra solo las propiedades de medidas
 console.log(newProduct); //muestra las propiedades de producto mas las propiedades de medidas
+
