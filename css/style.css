@@ -21,6 +21,10 @@ h1, p, a {
 h1 {
     font-size: 4rem;
 }
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
 a {
     font-size: 1.4rem;
 }
