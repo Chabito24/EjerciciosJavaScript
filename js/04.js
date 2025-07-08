@@ -1,11 +1,11 @@
 //tipos de datos: STRINGS O CADENAS DE TEXTO
 
-const producto = 'Monitor de 20 pulgadas';
-const producto1 ='Monitor de 20\"'
+const producto = 'Monitor de 20 pulgadas'; //se puede asignar el valor del string con comillas dobles o sencillas, ambas son validas, pero no se pueden mezclar, es decir si inicio con comillas dobles debo terminar con comillas dobles y lo mismo con las comillas sencillas, si se mezclan genera error en la consola del navegador
+const producto1 ='Monitor de 20\"/pulgadas'; //en este caso se usa la diagonal invertida Alt+92 para que no genere error con las comillas ya sean dobles o sencillas del string, en este caso se usa comillas dobles y dentro de la cadena de texto se usa una comilla doble con diagonal invertida para que no genere error
 const producto2 = String('Monitor 30 pulgadas');
 const producto3 = new String('Monitor 50 pulgadas'); //object
 
-console.log(producto);
+console.log(producto); 
 console.log(producto1);
 console.log(producto2);
 console.log(producto3);
@@ -29,7 +29,9 @@ console.log(typeof producto3); // muestra en consola que es un object
 
 const tweet = 'aprendiendo javascript con el curso de desarrollo web completo';
 
-console.log(tweet. length); // este .length me muestra en la consola la cantidad de caracteres que tiene la frase que ubique en el string, en este caso debe mostrar un total de 62 caracteres
+console.log(tweet); // muestra en consola el string completo, a continuacion los metodos como length, indexOf, includes
+
+console.log(tweet.length); // este .length me muestra en la consola la cantidad de caracteres que tiene la frase que ubique en el string, en este caso debe mostrar un total de 62 caracteres
 
 //METODO IndexOf (retorna una posicion)
 

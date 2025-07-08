@@ -7,7 +7,7 @@ let disponible; // se inicia una variable sin valor
 producto = true; //reasignando el valor de la variable
 
 let producto1 = 'computadora',
-    disponible = true,
+    disponible1 = true,
     categoria = 'computadoras'; //inicializa multiples variables
 
 

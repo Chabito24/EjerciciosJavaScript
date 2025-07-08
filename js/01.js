@@ -4,10 +4,10 @@ var producto = 'Audifonos Gamer'; //Inicia una variable y se le asigna un valor
 
 var disponible; // se inicia una variable sin valor
 
-producto = true; //reasignando el valor de la variable
+// producto = true; //reasignando el valor de la variable de string  a booleano
 
 var producto1 = 'computadora',
-    disponible = true,
+    disponible1 = true,
     categoria = 'computadoras'; //inicializa multiples variables
 
 
@@ -33,7 +33,11 @@ var nombreproducto = 'Monitor HD'; //o de esta manera conocido como "lowercase"
 
 //las variables son Case Sensitive, es decir tiene en cuenta si las variables estan escritas en mayusculas o minusculas no es lo mismo PRODUCTO que producto para JS esto son dos variables diferentes.
 
-var // es la manera como se delaraba la variable antiguamente ahora se usa:
+//ver una variable en consola
+console.log(producto); //esto nos muestra el valor de la variable en la consola
 
-let 
-const //las veremos en el archivo 02.js
+
+//DECLARAR VARIABLES
+
+// var // es la manera como se declaraba la variable antiguamente ahora se usa: let 
+// const //las veremos en el archivo 02.js
