@@ -57,8 +57,8 @@ const filtrados = carrito.filter(function(producto) {
 
 console.log("Productos filtrados con precio mayor a 400:", filtrados); //imprime los productos filtrados que tienen un precio mayor a 400
 
-const filtrados = carrito.filter(producto => producto.precio > 400);
-console.log("Productos filtrados con precio mayor a 400:", filtrados); // Es lo mismo que el anterior pero usando el metodo de arrow, imprime los productos filtrados que tienen un precio mayor a 400 usando arrow functions    
+const filtrados2 = carrito.filter(producto => producto.precio > 400);
+console.log("Productos filtrados con precio mayor a 400:", filtrados2); // Es lo mismo que el anterior pero usando el metodo de arrow, imprime los productos filtrados que tienen un precio mayor a 400 usando arrow functions    
 
 
 
