@@ -7,9 +7,9 @@ const producto = {
 }
 
 //forma anterior
-const precioProducto = producto.precio //aqui estoy accediendo unicamente a la propiedad de precio y asignandole un nombre de variable.
-
-console.log(precioProducto); //aqui me refleja el valor de la variable en este caso loe 700000 en la consola
+const precioProducto = producto.precio //aqui extraigo el valor de la propiedad precio del objeto producto y lo guardo en una variable llamada precioProducto
+//console.log(producto.precio); //aqui me refleja el valor de la propiedad precio
+console.log("precio",precioProducto); //aqui me refleja el valor de la variable en este caso loe 700000 en la consola
 
 
 //nueva forma - destructuring de objetos

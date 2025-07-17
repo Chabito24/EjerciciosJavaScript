@@ -19,11 +19,11 @@ console.log(producto);
 console.log(Object.isFrozen(producto)); //esto nos va a indicar si el objeto esta o no congelado o sellado
 
 
-//SEAL - existe uno similar al freexe pero llamado seal
+//SEAL - existe uno similar al freeze pero llamado seal
 
 const productos = {
     nombreProducto : 'Monitor 50 pulgadas',
-    precio : 700000,
+    precio : 800000,
     disponible : false,
 }
 

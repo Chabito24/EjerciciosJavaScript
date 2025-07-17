@@ -8,8 +8,8 @@ console.log("resuelve las operaciones por peso (20+30*2)",resultado);
 resultado = (20 + 30) * 2; //pero si queremos controlar el orden de las mismas pordemos agregar parentesis esto resuelve primero los parentesis y luego hace la operacion faltante
 console.log("control del orden con paarentesis (20+30)*2",resultado);
 
-resultado = (100 + 200 + 300) * 1.2; //muestra el 20% de la operacion
-console.log("muestra el 20% de la operación (100 + 200 + 300) * 1.2",resultado); //para el primer ejercicio nos da 80 y para el segundo 100
+resultado = (100 + 200 + 300) * 0.2; //muestra el 20% de la operacion
+console.log("muestra el 20% de la operación (100 + 200 + 300) * 0.2",resultado); //para el primer ejercicio nos da 80 y para el segundo 100
 
 
 

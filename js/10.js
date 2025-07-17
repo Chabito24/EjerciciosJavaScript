@@ -12,7 +12,7 @@ console.log(disponible);
 
 
 const producto = {
-    nombreProducto : 'Monitor 30 pulgadas',
+    nombreProducto : 'Monitor 20 pulgadas',
     precio : 700000,
     disponible : true,
 }
@@ -21,12 +21,12 @@ console.log(producto); //se puede ver la diferencia cuando se muestra en cosola 
 
 //sintaxis de punto
 
-console.log(producto.disponible); // puedo ver en consola unicamente el valor asociado a una de las variables en este caso si esta o no 
+console.log("disponible",producto.disponible); // puedo ver en consola unicamente el valor asociado a una de las variables en este caso si esta o no 
 
 
 //otro tipo de sintaxis
 
-console.log(producto['precio']) //es otra forma de llamar el valor de una sola variable se puede usar cualquiera de las dos
+console.log("precio",producto['precio']) //es otra forma de llamar el valor de una sola variable se puede usar cualquiera de las dos
 
 
 //VIDEO 114

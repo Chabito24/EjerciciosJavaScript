@@ -7,7 +7,7 @@ const producto = {
 }
 
 const medidas = {
-    peso : '1KG',
+    peso : '1kg',
     alto : '1m',
     ancho : '2m',
 }
