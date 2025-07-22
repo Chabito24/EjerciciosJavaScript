@@ -1,4 +1,4 @@
-//METODOS DE ¨PROPIEDAD sin funciones pero con sintaxis de metodo
+//METODOS DE ¨PROPIEDAD son funciones pero con sintaxis de metodo
 
 const reproductor = {
     reproducir: function(id) {

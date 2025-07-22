@@ -2,7 +2,7 @@
 
 //Declaracion de la funcion
 function sumar() {
-    console.log(10 + 10);
+    console.log(10 + 10); 
 }
 
 sumar(); //llamada a la funcion, ejecuta el codigo dentro de la funcion, en este caso imprime 20 en la consola
