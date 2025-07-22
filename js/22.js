@@ -34,5 +34,4 @@ if(rol === 'admin') {
     console.log('Acceso a todo el sistema, sin moificar parametros');
 } else {
     console.log('Acceso restringido');
-}
-
+} //no es util cuando y ahay mas de 3 o 4 else if 
