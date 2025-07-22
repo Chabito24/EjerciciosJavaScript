@@ -63,13 +63,11 @@ const existe = carrito.some((producto) => producto.nombre === 'Tablet'); //el re
 
 console.log("el producto existe",existe); //imprime true si existe, false si no existe
 
-//haremo slo mismo quitar el return para los demas
-
-const totalArrow = carrito.reduce((acumulador, producto) => acumulador + producto.precio, 0); //es lo mismo que el anterior pero usando arrow functions, es una sintaxis mas corta y moderna de escribir funciones en JavaScript
-console.log("El total a pagar es: $" + totalArrow); //imprime el total a pagar sumando el precio de todos los productos en el carrito usando arrow functions
+const totalArrow = carrito.reduce((acumulador, producto) => acumulador + producto.precio, 0); 
+console.log("El total a pagar es: $" + totalArrow);
 
 //Filter
 const filtrados = carrito.filter((producto) => producto.precio > 400
 ); 
 
-console.log("Productos filtrados con precio mayor a 400:", filtrados); //imprime los productos filtrados que tienen un precio mayor a 400  
+console.log("Productos filtrados con precio mayor a 400:", filtrados); //
