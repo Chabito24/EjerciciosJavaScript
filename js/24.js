@@ -83,3 +83,6 @@ do {
     console.log("do while loop ", y); //imprime el valor de y en cada iteracion, es decir, imprime los numeros del 0 al 10 en la consola
     y++; //incremento y en 1 en cada iteracion
 } while(y <= 10); //mientras y sea menor o igual a 10, es decir, se ejecuta al menos una vez antes de verificar la condicion, incluso si la condicion es falsa desde el principio
+
+//diferencias entre while y do while
+//El do while loop se ejecuta al menos una vez, incluso si la condicion es falsa, es decir si cambio el valor de y por 100 me imprime en consola ese 100 pero don wile no me imprimiria nada porque la condicion no se cumple desde el principio.
