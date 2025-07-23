@@ -14,7 +14,7 @@ switch (metodoDePago) {
     case 'cheque':
         console.log('El pago se realizo con cheque, se revisaran los fondos y posteriormente se realizara en envío');
         break; //si el metodo de pago es cheque se ejecuta el codigo dentro del case cheque y luego se sale del switch
-        default:
+    default:
             console.log('Metodo de pago no valido');
             break; //default se ejecuta si ninguno de los cases coincide con el valor de la
 

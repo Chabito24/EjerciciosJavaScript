@@ -78,7 +78,7 @@ while (x >= 0) { //mientras x sea mayor o igual a 0
 
 //Do while loop
 
-let y = 0; //inicializo la variable y en 0
+let y = 100; //inicializo la variable y en 0
 do {
     console.log("do while loop ", y); //imprime el valor de y en cada iteracion, es decir, imprime los numeros del 0 al 10 en la consola
     y++; //incremento y en 1 en cada iteracion
@@ -86,3 +86,9 @@ do {
 
 //diferencias entre while y do while
 //El do while loop se ejecuta al menos una vez, incluso si la condicion es falsa, es decir si cambio el valor de y por 100 me imprime en consola ese 100 pero don wile no me imprimiria nada porque la condicion no se cumple desde el principio.
+
+let z = 1;
+do {
+    console.log("do while loop ", z); 
+    z++;
+} while(z <= 10); 
