@@ -39,4 +39,10 @@ console.log(texto.includes ('lucha'))
 
 // ADICIONAL tolOWERcASE
 
-console.log(texto.toLowerCase().includes())
+console.log(texto.toLowerCase().includes('guerra')) // Buscamos la palabra 'guerra' sin importar cómo esté escrita
+
+console.log(frase.toLowerCase().indexOf('guerra')); // También podemos combinarlo con indexOf si queremos la posición
+
+
+
+
