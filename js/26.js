@@ -6,7 +6,7 @@ const reservacion = {
     total: 5000,
     pagado: false,
     informacion: function() { 
-        console.log(`el cliente ${this.nombre} reservó y su cantidad a pagar es de ${this.total}`); //me permite crear una funcion dentro del objeto reservacion que imprime un mensaje con el nombre y el total de la reservacion
+        console.log(`el cliente ${this.nombre} reservó y su cantidad a pagar es de ${this.total}`);
     }
 } //me permite crear un objeto con propiedades y valores, en este caso, un objeto que representa una reservacion con las propiedades nombre, apellido, total y pagado
 
