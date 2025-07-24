@@ -9,8 +9,8 @@ const producto = 'Audifonos Gamer'; //Inicia una variable y se le asigna un valo
 // producto = true; //NO permite reasignar un valor
 
 const producto1 = 'computadora',
-    disponible1 = true,
-    categoria = 'computadoras'; //inicializa multiples variables
+      disponible1 = true,
+      categoria = 'computadoras'; //inicializa multiples variables
 
 
 //REGLAS de las variables
