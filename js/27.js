@@ -42,7 +42,13 @@ console.log( FormatearProducto(producto4)); // el problema de crear este tipo de
 
 // Prototype noes permite crear funcio0nes que solo se utilizan en un objeto en especifico.
 
-Producto.prototype.FormatearProducto = function() {
-    return `Prototype: El producto ${this.nombre} tiene un precio de $ ${this.precio}`;
+Producto.prototype.FormatearProducto = function() { // iniciamos con el nombre de la funcion coon la que inicializacos el consturctor en este caso "Producto" seguido de punto y luego la palabra prototype
+    return `Prototype: El producto ${this.nombre} tiene un precio de $ ${this.precio}`; // generamos con un return solo en este ejemplo un temnplate literal con los datos del producto pero esta vez usamos el ${this.xxxxx} 
 }
-console.log(producto3.FormatearProducto());
+console.log(producto3.FormatearProducto()); // en el console.log llamamoms en este caso el producto seguido de punto el nombre de la funcion  y entre paarentesis ya no es necesario llamar parametros.
+
+
+// lo anterior nos permite primero evitar escribir tntos function, segundo, permite que solo se utilice para la clase que se requiere, si lo usamos en otra clase se generara un error en consola.
+
+
+
