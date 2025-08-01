@@ -35,7 +35,7 @@ class Libro extends Producto { // Creo una nueva clase  llamada Libro, pero a es
     }
     formateaCategoria() {
         super.formateaCategoria();
-        console.log('hay libros en existencia')
+        console.log('hay libros en existencia'); //cuando es una variable no se coloca como template string
     }
 }
 
