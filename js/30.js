@@ -1,7 +1,7 @@
 // Promises
 
 const usuarioAutenticado = new Promise((resolve, reject) => { //se hace una promesa een JS, cabe aclarar que los parametros resolve y reject pueden tomar mal valor 
-    const auth = true; // se crea una variable para validar si el usuario esta o no autenticado por medio de un booleano
+    const auth = false; // se crea una variable para validar si el usuario esta o no autenticado por medio de un booleano
 
     if(auth) {
         resolve('Usuario autenticado'); //el promise se cumple
@@ -23,6 +23,5 @@ console.log(usuarioAutenticado); //como en auth es = a true nos imprimira fulfil
 */
 
 usuarioAutenticado
-    .then( function(resultado) {
-        console.log(resultado);
-    }) //usamos la variable usuarioAutenticado, con la funcion .then donde le colocamos un parametro llamado resultado y un console.log que nos imprima el resultado de la ejecucion del promise sea reject o resolve, por eso el mensaje que imprime depende del resultado del if o el else segun la simulacion de autenticacion del usuario.
+    .then(resultado=> console.log(resultado)) //usamos la variable usuarioAutenticado, con la funcion .then donde le colocamos un parametro llamado resultado y un console.log que nos imprima el resultado de la ejecucion del promise sea reject o resolve, por eso el mensaje que imprime depende del resultado del if o el else segun la simulacion de autenticacion del usuario.
+    .catch(error=> console.log(error))//este me genera el mensaje cuando no se cumple y genera el mensaje para este ejercicio de error en el inicio de sesión"
