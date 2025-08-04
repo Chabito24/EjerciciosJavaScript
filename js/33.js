@@ -22,11 +22,22 @@ function descargaNuevosPedidos() {
     }); 
 }
 
+function descargarFacturas() {
+    return new Promise( resolve => {
+        console.log('Descargando facturas......Espere');
+
+        setTimeout( () => {
+            resolve('Las facturas fueron descargadas');
+        }, 2000);
+    });
+}
+
 async function app() { 
     try {
-        const resultado = await Promise.all([descargaNuevosClientes(), descargaNuevosPedidos()]); //De est amanera obtenemos un arreglo por cada funcion
+        const resultado = await Promise.all([descargaNuevosClientes(), descargaNuevosPedidos(), descargarFacturas()]); //De est amanera obtenemos un arreglo por cada funcion
         console.log(resultado[0]); //imprimimos el arreglo por su indice en este caso indice [0] y abajo indice [1]
         console.log(resultado[1]);
+        console.log(resultado[2]);
     } catch (error) {
         console.log(error)     
     }
@@ -54,3 +65,5 @@ async function app() {
 */
 
 // de esta manera son dependientes y una nos e ejecuta hasta que la anterior se ejecute.
+
+// se incluye un tercer elemento com objeto llamado descargarFacturas ahora en consola muestra el mensaje descargando, y la descarga final simulada con el setTimeout de cada elemento.
