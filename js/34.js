@@ -1,4 +1,4 @@
-//Fetch API
+//Fetch API (promises)
 
 function obtenerEmpleados() { // Creamos una funcion
 
