@@ -17,6 +17,7 @@ delete producto.precio;
 
 console.log(producto);
 console.log(Object.isFrozen(producto)); //esto nos va a indicar si el objeto esta o no congelado o sellado
+console.log("------------");
 
 
 //SEAL - existe uno similar al freeze pero llamado seal
@@ -35,3 +36,4 @@ delete productos.precio;
 
 console.log(productos);
 console.log(Object.isSealed(productos));
+console.log("------------");

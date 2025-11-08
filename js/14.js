@@ -5,6 +5,7 @@ const numeros = [10,20,30,40,50]; //esta es la mas usada
 console.log(numeros); //imprime los valores como les venimos viendo hasta ahora
 
 console.table(numeros);//me meustra la informacion pero en una tabla, ver consola
+console.log("1------------------");
 
 
 //Ejemplo 2: tambien se peude crear con el constructor con la siguiente sintaxis de acontinuacion:
@@ -15,6 +16,7 @@ const meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto'
 
 console.log(meses);
 console.table(meses);
+console.log("2------------------");
 
 //Ejemplo 3: se pueuden incluir toda clase dde datos por ejemplo String, numeros, booleans, null, objetos e incluso tener otro arreglo
 
@@ -23,26 +25,29 @@ const arreglo = ['Hola', 10, true, null, {nombre: 'Edward', Cargo: 'desarrollado
 
 console.log(arreglo);
 console.table(arreglo);
+console.log("3------------------");
 
 
 //COMO ACCEDER A LOS VALORES DE UN ARREGLO
 
 console.log(arreglo[4]);
 console.table(arreglo[4]); // en albos console debe mostrarme el valor del indice numero 4 que en este caso corresponde a un objeto dentro del arrego = nombre; Edward cargo: desarrollador
+console.log("4------------------");
 
 
 
 // CONOCER LA EXTENCION DE DATOS QUE TIENE UN ARREGLO
 
 console.log(meses.length); //vamops a poder ver en cosola que nos va a mostrar los 12 datos que tiene el arreglo llamado meses.
+console.log("5------------------");
 
 
-//COMO ACCEDER A TODOS LOS VALORES DE UN MISMO ARREGLO PARA NO INGLRESAR A UNO POR UNO USAMOS:
+//COMO ACCEDER A TODOS LOS VALORES DE UN MISMO ARREGLO PARA NO INGRESAR A UNO POR UNO USAMOS:
 
-numeros.forEach( function(numero) {
+numeros.forEach( function(numero) { //tener en cuenta el arreglo de numeros creado previamente
     console.log(numero);
 }) //se usa la anterior sintaxis el nombre del arreglo seguido de punto y la palabraforEach entre parentecios la opcion function y dentro de parentesis el nombre por el cual queremos hacer la iteracion.
-
+console.log("6------------------");
 
 //METODOS PARA LOS ARRAYS - VIDEO119
 
@@ -52,6 +57,7 @@ numeros[5] = 60;//agrega un nuevo indice con un valor en este caso indice numero
 numeros[6] =70; //hace lo mismo que el anterior
 
 console.table(numeros); //veremos en consola que ahora en la tabla me agrego un valor en este caso en el indice numero 5 el valor numero 60 y en el indice 6 el valor de 70 tal cual como se indico en  el codigo anterior ARREGLO DE "numeros", se debe conocer el indice en el cualse va a incluir el nuevo arreglo, si no se conoce el indice se puede usar el metodo push que es mas sencillo y no requiere de conocer el indice en el cual se va a agregar el nuevo elemento
+console.log("7------------------");
 
 //agregar un elemento sin indicar el indice push
 

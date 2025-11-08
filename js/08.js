@@ -20,7 +20,7 @@ console.log("Nombre:",nombre + " Email:",email);//este es usado pero si te llega
 //TEMPLATE STRINGS ó STRINGS LITERALS 
 
 //comilla invertida `` se genera en Windows con el codigo ASCII Alt + 96
-console.log(`Nombre: ${nombre} Email: ${email}`)//primero se debe colocar todo dentro de comillas invertidas Alt + 96, segundo se coloca el nombre del string segido un espacio y un signo de dolar y entre llaves el nombre de la variable asi ${nombre}, esto  dice que lo que esta alli metido enre llaves es la variable.
+console.log(`Nombre: ${nombre} Email: ${email}`);//primero se debe colocar todo dentro de comillas invertidas Alt + 96, segundo se coloca el nombre del string segido un espacio y un signo de dolar y entre llaves el nombre de la variable asi ${nombre}, esto  dice que lo que esta alli metido enre llaves es la variable.
 
 //esta opción de TEMPLATE STRINGS es mas usada que la opción de concatenar con el signo de mas, sin embargo ambas tienen el mismo efecto no es reutilizable, es decir si quiero cambiar el nombre o el email debo cambiarlo en cada console.log
 

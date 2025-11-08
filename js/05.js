@@ -41,7 +41,7 @@ const a = "100";
 const b = 50;
 
 console.log(a + b);    // ¿Qué crees que imprime? imprime 10050, ya que al ser un string concatena el numero 50 al string 100, por lo tanto no hace la operacion de suma, sino que concatena los dos valores
-console.log(Number(a) + b);    // esto permite que el string pase a ser umero y se pueda realizar la operacion a diferencia de con console.log(a + b);
+console.log("hola "+ a + "+"+ b + "=" +(Number(a) + b));    // esto permite que el string pase a ser umero y se pueda realizar la operacion a diferencia de con console.log(a + b);
 console.log(a - b);    // hace la operacion de resta y muestra el resultado 50
 console.log(a * b);    // hace la operacion de multiplicacion y muestra el resultado 5000
 console.log(a / b);    // hace la operacion de division y muestra el resultado 2

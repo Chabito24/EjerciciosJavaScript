@@ -38,3 +38,5 @@ var marca = 'Motorola',
 
 console.log(`Marca: ${marca}, Modelo: ${modelo}, Color: ${color}`); // Imprime las nuevas variables
 
+console.log()
+

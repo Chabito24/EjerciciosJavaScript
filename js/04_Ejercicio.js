@@ -1,4 +1,4 @@
-/*
+/*EJERCICIO
 
 
 1. Declara un string que contenga al menos dos palabras separadas por espacios y verifica cuántos caracteres tiene.

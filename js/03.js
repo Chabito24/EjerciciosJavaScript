@@ -4,7 +4,7 @@ const producto = 'Audifonos Gamer'; //Inicia una variable y se le asigna un valo
 
 
 
-// const disponible; // NO se puede iniciart una variable sin valor esto genera error en la consola en caso que se necesite iniciar una variable sin valor usar preferiblemente let
+// const disponible; // NO se puede iniciar una variable sin valor esto genera error en la consola en caso que se necesite iniciar una variable sin valor usar preferiblemente let
 
 // producto = true; //NO permite reasignar un valor
 
